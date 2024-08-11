@@ -1,0 +1,141 @@
+body{
+    background-color: #fbca37;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-section{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    height: 90vh;
+    transition: background-color 0.5s ease-in-out;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+
+.list-inline{
+    background-color: rgba(255, 255, 255, 0.1);
+    list-style: none;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.list-inline-item{
+    color: white;
+    margin-inline: 15px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.img-sec h1{
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.player-over{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.stats{
+    margin-left: 50px;
+}
+
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.description{
+    padding-inline: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1.5px solid;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.card{
+    width: 100px;
+    height: 400px;
+    background-color: #fbca37;
+    border-radius: 10px;
+    background-size: cover;
+    cursor: pointer;
+    overflow:hidden;
+    border-radius: 2px;
+    margin: 0 5px;
+    display: flex;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+    background-position: -150px;
+}
+
+.card h1{
+    rotate: -90deg;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: -120px;
+    width: 300px;
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+} 
+
+input{
+    display: none;
+
+}
+
+input:checked + label{
+    width: 300px;
+    background-position: -50px;
+}
+
+input:checked + .card h1{
+    rotate: 0deg;
+    margin-left: auto;
+}
+
+.card[for="c1"]{
+    background-image: url('https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/57.png');    
+}
+
+.card[for="c2"]{
+    background-image: url('https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/44.png');
+}
+
+.card[for="c3"]{
+    background-image: url('https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/102.png');
+}
+
+.card[for="c4"]{
+    background-image: url('https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/46.png');
+}
+
+

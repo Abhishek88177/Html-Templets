@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    display: flex;
+    overflow-y: auto;
+    position: absolute;
+    /* position: relative; */
+    /* border: 1px solid red; */
+}
+
+.box::-webkit-scrollbar{
+    display: none;
+}
+
+.images {
+    width: 100%;
+    padding: 10px;
+}
+
+.row{
+    width: 200%;
+    /* height: 100vh; */
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+.text{
+font-size:200px;
+text-align: center;
+
+}
